@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NgcRangeComponent } from './ngc-range/ngc-range.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NgcRangeComponent
   ],
   imports: [
     BrowserModule,
