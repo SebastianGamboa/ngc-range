@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { NgcRangeComponent } from './ngc-range/ngc-range.component';
+import { Exercise1Component } from './exercise1/exercise1.component';
+import { Exercise2Component } from './exercise2/exercise2.component';
 
 const routes: Routes = [
   { path: '',  redirectTo: 'exercise1', pathMatch: 'full' },
-  { path: 'exercise1', component: NgcRangeComponent }
+  { path: 'exercise1', component: Exercise1Component },
+  { path: 'exercise2', component: Exercise2Component }
 ];
 
 @NgModule({

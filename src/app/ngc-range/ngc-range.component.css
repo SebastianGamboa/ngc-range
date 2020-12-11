@@ -1,28 +1,29 @@
 .slider {
-    position: relative;
-    border-radius: 5px;
-    background: #E0E0E0;
-    background: linear-gradient(left top, #E0E0E0, #EEEEEE);
-    width: 310px;
-    height: 5px;
-    margin: 5px;
-  }
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  background: #161718;
+  width: 310px;
+  height: 5px;
+  margin: 5px;
+}
   
-  .thumb {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    position: absolute;
-    top: -5px;
-    background: blue;
-    cursor: pointer;
-    transition: .2s width height;
-  }
+.thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  background: #161718;
+  cursor: pointer;
+  transition: .2s width height;
+}
   
-  .thumb:active {
-    top: -7px;
-    width: 20px;
-    height: 20px;
-  }
-  
-  .thumb2 { right: 0; }
+.thumb:active {
+  top: -7px;
+  width: 20px;
+  height: 20px;
+  cursor: grabbing;
+}
+
+.thumb2 { right: 0; }
